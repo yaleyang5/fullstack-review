@@ -26,7 +26,6 @@ app.get('/repos', function (req, res) {
       res.send(data);
     });
   // res.render("index.jsx");
-  // TODO - your code here!
   // This route should send back the top 25 repos
 });
 
