@@ -4,7 +4,6 @@ const axios = require('axios');
 const config = process.env.GIT_TOKEN ||  require('../config.js').TOKEN;
 
 let getReposByUsername = (username, callback) => {
-  // TODO - Use the axios module to request repos for a specific
   // user from the github API
 
   // The options object has been provided to help you out,
